@@ -1,0 +1,836 @@
+﻿<!doctype html>
+
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Tutorial DSUPE</title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app10.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/img2.jpg','imagenes/variable2.PNG','imagenes/diagrama2.png','imagenes/diag2.jpg','imagenes/pseudo2.jpg','imagenes/condicional2.jpg')">
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Tutorial DSUPE</h1>
+  </div>
+<div data-role="main" class="iu-content">
+<div data-role="collapsible" data-comtent-theme="false" align="justify">
+    <h1>Presentación del Módulo 1 </h1>
+    <div>
+    <br>
+      Desarrolla e instala software de aplicación utilizando programación estructurada con almacenamiento persistente de los datos.<br>
+    <h3>SUBMÓDULO 1:(DSUPE)</h3>
+    Desarrolla Software Utilizando Programación Estructurada (160 horas)<br>
+    <h3>SUBMÓDULO 2:(DABDS)</h3>
+    Diseña y Administra Bases de Datos Simples (112 horas)<br>
+    <h2>COMPETENCIAS PROFESIONALES A LOGRAR:</h2>
+    1.- Soluciona problemas (Algoritmos).<br>
+     2.- Desarrolla diagramas de flujo de los algoritmos.<br>
+     3.- Elabora pseudocódigo de los diagramas de flujo<br>
+     4.- Desarrolla el código de un lenguaje de programación estructurada (C#)<br>
+      </div>
+      </div>
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Contenido temático de DSUPE</h1>
+    <div>
+      <h3>1. Desarrolla el proceso para dar solución a un problema de computadora</h3><br>
+      a) Identificar el problema. <br>
+      b) Analizar el problema. <br>
+      c) Elaborar el Algoritmo que da solución al problema. <br>
+      d) Hacer el análisis de los datos. <br>
+      e) Elaborar Diagrama de Flujo. <br>
+      f) Crear pseudocódigo de la solución. <br>
+      g) Crear el código de la solución. <br>
+      h) Hacer pruebas de escritorio. <br>
+      <h3>2. Identifica y aplica el principio de Programación Estructurada</h3>
+      <h3>3. Reconocimiento del entorno de desarrollo gráfico del DFD </h3>
+      <h3>4. Reconocimiento del entorno de desarrollo gráfico de PSEINT</h3>
+      <h3>5. Reconocimiento del entorno de desarrollo gráfico de C#</h3>
+      <h3>6. Desarrolla procesos de estructura lineal</h3>
+      a) Identifica y aplica el concepto de variable. <br>
+      b) Aplica las variables en las operaciones que definen sus Algoritmos. <br>
+      c) Operadores aritméticos y su jerarquía. <br>
+      <h3>7. Desarrolla procesos de estructura condicional </h3>
+      a) Elementos de una expresión condicional. <br>
+      b) Manipular la estructura de decisión "if". <br>
+      c) Manipular la estructura de decisión "if-else". <br>
+      d) Manipular la estructura de decisión "elseif". <br>
+      e) Manipular la estructura de decisión "switch". <br>
+      f) Manipular las estructuras de decisión en forma de anidamiento. <br> 
+      <h3> 8. Desarrolla procesos de estructura repetitiva </h3>
+      a) Manipular la estructura de repetición "while". <br>
+      b) Manipular la estructura de repetición "do-while". <br>
+      c) Manipular la estructura de repetición "for". <br>
+      d) Manipular las estructuras de repetición en forma de anidamiento. <br> 
+      <h3>9. Uso de variables tipo arreglo </h3>
+      <h3> 10. Convierte programas elaborados en archivos ejecutables</h3>
+      
+   </div>
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Algoritmo </h1>
+    <div>
+    <br>
+      Es una lista finita y ordenada de pasos necesarios para llegar a la solución de un problema específico 
+      <h3> PARTES DEL ALGORITMO</h3>
+      <h4> Entradas </h4>
+      Son los valores obtenidos del problema que representan sl mundo real. Pueden ser cero a más entradas 
+      <h4> Proceso</h4>
+      Descripción de las operaciones que se llevarán a cabo con las entradas anteriores
+      <h4> Salidas </h4>
+      <p>La salida son los valores resultantes a transformar los valores de la entrada. Pueden ser una o más salidas</p> <br>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/img2.jpg',1)"><img src="imagenes/img1.png" width="1280" height="720" id="Image5"></a> 
+      <div data-role="main" class="ui-content" align="center" >
+<div style="width:25%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://definicion.de/algoritmo/" data-role="button" >
+  <h2>Más sobre el tema</h2>
+  </a>
+  </li>
+</ul>
+  </div>
+  </div>
+      </div>
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>¿Cómo realizar un Algoritmo? </h1>
+    <div>
+    <br>
+      <h3> IDENTIFICAR EL PROBLEMA </h3>
+      Es el enunciado del problema, se pretende que deba ser claro y completo.
+      <h3> ANALIZAR EL PROBLEMA </h3>
+      Leer el enunciado cuantas veces sea necesario con el objetivo de saber que se requiere como solución.  
+      <h3> HACER EL ALGORITMO QUE DA SOLUCIÓN AL PROBLEMA </h3>
+      Sin tener dudas de lo que se requiere como solución al problema, procedemos a escribir el algoritmo. 
+      <h3> HACER EL ANÁLISIS DE LOS DATOS  </h3>
+      Hacer las partes que conforman el Algoritmo:
+      - Entrada de datos
+      - Proceso de los datos 
+      - Salida de datos
+      <h3> OPERADORES ARITMÉTICOS Y SU JERARQUÍA:</h3>
+      <h4>() Agrupación</h4> 
+      <h4> * Multiplicación </h4>
+      <h4> / División </h4>
+      <h4> % Módulo</h4>
+      <h4> + Suma</h4>
+      <h4> - Resta</h4>
+      <h3> Variable</h3>
+      Es una palabra o identificador creado por el programador para asignarle valores.
+      <h3>¿Cómo crear el nombre de una variable</h3>
+      El identificador o nombre de variable, debe constar solo de letras y números, comenzando siempre por una letra.
+      <h3>Criterio importante para el nombre de una variable</h3>
+      Elige el nombre de tus variables de tal forma que se sobreentienda el valor que va a representar de acuerdo al problema que se está resolviendo.
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/variable2.PNG',1)"><img src="imagenes/variable.jpg" width="638" height="359" id="Image6"></a> 
+      </div>
+  </div>
+</div>
+</div>
+
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>UNIDAD 1</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>UNIDAD 2</h2>
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>UNIDAD 3</h2> 
+      </a>      
+     </li>      
+    </ul>
+    <div data-role="collapsible" data-comtent-theme="false" align="center">
+    <h1>DATOS DEL DESARROLLADOR </h1>
+    <div>
+    <br>
+      <h2> NOMBRE DEL ALUMNO: </h2>
+      Karen Krstell Soriano Dávila
+      <h2> GRUPO: </h2>
+      "E"  
+      <h2> SEMESTRE: </h2>
+      4to 
+      <h2> SUBMÓDULO:  </h2>
+      DAM <br>
+      Desarrolla Aplicaciones Móviles
+      <h2> DOCENTE:</h2>
+      José Antonio Gómez Hernández 
+      </div>
+      </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Diez, KKSD</h4>
+   <h4>PROYECTO FINAL</h4>
+  </div>
+</div>
+
+</div>
+<div data-role="page" id="Pagina1" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1> UNIDAD 1 </h1>
+   </div>
+   
+    <div data-role="main" class="ui-content">
+     <div>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/algoitmo_ejemplo_1.jpg" alt="ALGOITMO EJEMPLO 1" title="ALGOITMO EJEMPLO 1" id="wows1_0"/></li>
+		<li><img src="data1/images/algoritmo_ejemplo_2.jpg" alt="ALGORITMO EJEMPLO 2" title="ALGORITMO EJEMPLO 2" id="wows1_1"/></li>
+		<li><img src="data1/images/algoritmo_ejemplo_3.jpg" alt="ALGORITMO EJEMPLO 3" title="ALGORITMO EJEMPLO 3" id="wows1_2"/></li>
+		<li><img src="data1/images/algoritmo_ejemplo_4.jpg" alt="ALGORITMO EJEMPLO 4" title="ALGORITMO EJEMPLO 4" id="wows1_3"/></li>
+		<li><img src="data1/images/ejemplo_diagrama_1.png" alt="EJEMPLO DIAGRAMA 1" title="EJEMPLO DIAGRAMA 1" id="wows1_4"/></li>
+		<li><img src="data1/images/ejemplo_diagrama_2.jpg" alt="EJEMPLO DIAGRAMA 2" title="EJEMPLO DIAGRAMA 2" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/ejemplo_diagrama_3.jpg" alt="wowslider.net" title="EJEMPLO DIAGRAMA 3" id="wows1_6"/></a></li>
+		<li><img src="data1/images/ejemplo_diagrama_4.jpg" alt="EJEMPLO DIAGRAMA 4" title="EJEMPLO DIAGRAMA 4" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="ALGOITMO EJEMPLO 1"><span><img src="data1/tooltips/algoitmo_ejemplo_1.jpg" alt="ALGOITMO EJEMPLO 1"/>1</span></a>
+		<a href="#" title="ALGORITMO EJEMPLO 2"><span><img src="data1/tooltips/algoritmo_ejemplo_2.jpg" alt="ALGORITMO EJEMPLO 2"/>2</span></a>
+		<a href="#" title="ALGORITMO EJEMPLO 3"><span><img src="data1/tooltips/algoritmo_ejemplo_3.jpg" alt="ALGORITMO EJEMPLO 3"/>3</span></a>
+		<a href="#" title="ALGORITMO EJEMPLO 4"><span><img src="data1/tooltips/algoritmo_ejemplo_4.jpg" alt="ALGORITMO EJEMPLO 4"/>4</span></a>
+		<a href="#" title="EJEMPLO DIAGRAMA 1"><span><img src="data1/tooltips/ejemplo_diagrama_1.png" alt="EJEMPLO DIAGRAMA 1"/>5</span></a>
+		<a href="#" title="EJEMPLO DIAGRAMA 2"><span><img src="data1/tooltips/ejemplo_diagrama_2.jpg" alt="EJEMPLO DIAGRAMA 2"/>6</span></a>
+		<a href="#" title="EJEMPLO DIAGRAMA 3"><span><img src="data1/tooltips/ejemplo_diagrama_3.jpg" alt="EJEMPLO DIAGRAMA 3"/>7</span></a>
+		<a href="#" title="EJEMPLO DIAGRAMA 4"><span><img src="data1/tooltips/ejemplo_diagrama_4.jpg" alt="EJEMPLO DIAGRAMA 4"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section --> <br><br>
+     <ul data-role="controlgroup" data-type="vertical" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Implementar Algoritmos con Diagrama de Flujo</h2>
+     </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Implementar Algoritmos con Pseudocódigo</h2>
+     </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Implementar Algoritmos con Código</h2>
+     </a>
+     </li>
+     </ul>
+     </div>
+     </div>
+     
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <h4>App 10 Karen Krystell Soriano Dávila</h4>
+       <h4>PROYECTO FINAL</h4>
+      <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+</div>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Implementar Algoritmos con Diagrama de Flujo</h1> 
+  </div>
+<div data-role="content" align="justify">
+   <div>
+    <h2>DIAGRAMAS DE FLUJO</h2>
+    <p> El Diagrama de Flujo es la representación graficosimbólica del algoritmo, nos indica al flujo lógico de cada paso definido.</p>
+    <h2> SIMBOLOGÍA BÁSICA DE DIAGRAMAS DE FLUJO</h2>
+    <p> El óvalo indica el inicio y el final del diagrama de flujo. Indicar su uso con la palabra a su interior.</p>
+    <p> El trapecio indica recibir en una variable un dato de entrada usando el teclado. Poner la variable a su interior.</p>
+    <p> El cono horizontal indica enviar el contenido de una variable a salida, representa el monitor o pantalla. Podemos indicar que mande de salida un mensaje de texto poniéndole comilla sencilla en los extremos. </p>
+    <p> El rectángulo partido indica enviar el contenido de una variable salida, representa la impresora o papel. Podemos indicar que mande de salida un mensaje de texto poniéndole comillas sencillas en los extremos.</p>
+    <p> El romboide inidica recibir en una variable un dato de entrada usando el teclado o enviar un dato contenido en una variable en la salida, comúnmente el monitor o pantalla. Al usarlo debemos indicar a su interior la palabra LEER O ESCRIBIR según su uso. Podemos indicar que mande salida un mensaje de texto. </p>
+    <p> El rectángulo indica proceso de datos. Hacer un cálculo de operaciones aritméticas. Para asignar el cálculo aritmético a una variable se usa = ó <- </p>
+    <p> El pentágono para conectar segmentos de diagrama de una página a otra, usar número o letra secuencial a su interior.</p>
+    <p> El círculo para conectar segmentos de diagrama en la misma página, usar número o letra secuencial a su interior.</p>
+    <p> El mini círculo sirve para unir intersecciones de líneas de flujo.</p>
+    <p> Flecha vertical indica el flujo hacia debajo de los pasos del algoritmo.</p>
+    <p> Las flechas horizontales indican el flujo hacia la zquierda o hacia la derecha.</p><br>
+    <div class="imagen">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image53','','imagenes/diag2.jpg',1)"><img src="imagenes/diag1.jpg" width="331" height="400" id="Image53"></a>
+    </div>
+<h2>PROPIEDADES DE DIAGRAMA DE FLUJO</h2>
+    <p> 1.- Un diagrama de flujo siempre se realiza de arriba hacia abajo y de izquierda a derecha.</p>
+    <p> 2.- Las flechas de flujo siempre tocan el símbolo superior y al símolo inferior.</p>
+    <p> 3.- Las flechas de flujo nunca se cruzan, usar mini círculo para unir un flujo.</p>
+    <br>
+    <div class="imagen">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image88','','imagenes/diagrama2.png',1)"><img src="imagenes/diagrama.jpg" width="728" height="1031" id="Image88"></a><br>
+    
+    <a href="https://www.lucidchart.com/pages/es/qu%C3%A9-es-un-diagrama-de-flujo" target="_self">Para saber más</a>
+    </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Diez, KKSD</h4>
+   <h4>PROYECTO FINAL</h4>
+</div>
+ </div> 
+</div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Implementar Algoritmos con Pseudocódigo</h1> 
+  </div>
+<div data-role="content" align="justify">
+   <div>
+   <h2>PSEUDOCÓDIGO</h2>
+    <p> Es la representación narrativa de cada paso del algoritmo; esta narrativa obedece a la lengua nativa del programador.</p>
+    <p> El pseudocódigo utiliza palabras que indican el proceso a realizar:</p>
+    <h2> - INICIO</h2>
+    <h2> - FINAL</h2>
+    <p> Respectivamente indican el inicio del pseudocódigo y final del pseudocódigo</p>
+    <p> Palabras a utilizar:</p>
+    <h3> Leer variable</h3>
+    <p> Palabras a utilizar:</p>
+    <h3> Escribir "mensaje"</h3>
+    <h3> Escribir "mensaje", variable</h3>
+    <p> Palabras a utilizar:</p>
+    <h3>Para los cálculos aritméticos no existe una palabra específica</h3>
+    <h2> LENGUAJE DE PROGRAMACIÓN</h2>
+    <p> Es un conjunto de palabras con cierta base sintáctica y semántica, para construir instrucciones que forman un programa de computadora</p>
+    <p> Comprende un conjunto de palabras reservadas y propias. Las cuales tienen su base sintáctica de uso y su base semántica de forma.</p>
+    <br>
+    <div class="imagen">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','imagenes/pseudo2.jpg',1)"><img src="imagenes/pseudo.jpg" width="471" height="519" id="Image34"></a><br>
+       <a href="http://www.areatecnologia.com/informatica/pseudocodigo.html" target="_self">Para saber más</a>
+       </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Diez, KKSD</h4>
+   <h4>PROYECTO FINAL</h4>
+</div>
+ </div> 
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Implementar Algoritmos con Código</h1> 
+  </div>
+<div data-role="content" align="justify">
+   <div>
+   <h2>C#</h2>
+    <p> Cuando nombramos las variables, hay que tener en cuenta que para C# las mayúsculas y minúsculas son diferentes.</p>
+    <p> Aplicando a variables:</p>
+    <p> La variable costo no es la misma que otra variable COSTO u otra variable Costo u otra variable costO u otra variable coSto </p>
+    <h2> DECLARAR VARIABLES EN C#</h2>
+    <p>Para usar una variable, tenemos que declararla, y es muy sencillo:</p>
+    <h3> double pago;</h3>
+    <h3> int edad;</h3>
+    <h3> string nombre;</h3>
+    <h2> C#</h2>
+    <p> En C# cada sentencia finaliza con un punto y coma</p>
+    <h2> MOSTRAR VALORES DE VARIABLES EN LA CONSOLA DE C#</h2>
+    <p>Se usa el método WriteLine() o el método Write() de la clase Console; usando una cadena de formato y una lista de variables.</p>
+    <img src="imagenes/codigo.jpg" width="60%" height="60%" class="imagen">
+    <h2> SÍNTAXIS</h2>
+    <p> Console.Write("texto {0} texto1 {1}...", var0, var1...)</p>
+    <h3> Ejemplo</h3>
+    <p>Console.Write("El promedio de {0} y de {1} es {2}", calif1, calif2, promedio);</p>
+    <h2>PEDIR DATOS AL USUARIO EN LA CONSOLA DE C#</h2>
+    <p>Se usa el método ReadLine() de la clase Console; y nos regresa una cadena o texto que contiene lo que escribió el usuario con el teclado.</p>
+    <h3>SÍNTAXIS</h3>
+    <p> Console.ReadLine();</p>
+    <h3>Ejemplo</h3>
+    <p>valortexto= Console.ReadLine();</p>
+    <h2>CONVERSIÓN DE DATOS EN C#</h2>
+    <p>Debemos convertir ese dato cadena o texto a dato numérico útil con la clase Convert.</p>
+    <h2>CONVERTIDOR DE DATOS EN C#</h2>
+    <p>Éste necesita un parámetro, que es la cadena que deseamos convertir y es necesario tener una variable que lo reciba y declarada del tipo a convertir.</p>
+    <h4>//convierte a numero con decimales valor1= Convert.ToDouble(valortexto);</h4>
+    <h4>//convierte a numero entero valor2= Convert.ToInt32(valortexto);</h4>
+    <p>Una forma adicional es usando el método Parse:</p>
+    <h4>//convierte a numero con decimales valor1= double.Parse(valortexto);</h4>
+    <h4>//convierte a numero entero valor2= intParse(valortexto);</h4>
+    <br> <div class="imagen">
+    <img src="imagenes/cgato.jpg" width="60%" hight="60%"><br>
+       <a href="https://www.taringa.net/posts/ciencia-educacion/15391497/C---Declaracion-de-variables.html" target="_self">Para saber más</a>
+       </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Diez, KKSD</h4>
+   <h4>PROYECTO FINAL</h4>
+</div>
+ </div> 
+</div>
+<div data-role="page" id="Pagina2" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1> UNIDAD 2 </h1>
+   </div>
+    <div data-role="main" class="ui-content">
+     <div>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/pseudocodigo_ejemplo_1.jpg" alt="PSEUDOCODIGO EJEMPLO 1" title="PSEUDOCODIGO EJEMPLO 1" id="wows2_0"/></li>
+		<li><img src="data2/images/pseudocodigo_ejemplo_2.png" alt="PSEUDOCODIGO EJEMPLO 2" title="PSEUDOCODIGO EJEMPLO 2" id="wows2_1"/></li>
+		<li><img src="data2/images/pseudocodigo_ekemplo_3.jpg" alt="PSEUDOCODIGO EKEMPLO 3" title="PSEUDOCODIGO EKEMPLO 3" id="wows2_2"/></li>
+		<li><img src="data2/images/pseudocodigo_ejemplo_4.jpg" alt="PSEUDOCODIGO EJEMPLO 4" title="PSEUDOCODIGO EJEMPLO 4" id="wows2_3"/></li>
+		<li><img src="data2/images/pseudocodigo_ejemplo_5.jpg" alt="PSEUDOCODIGO EJEMPLO 5" title="PSEUDOCODIGO EJEMPLO 5" id="wows2_4"/></li>
+		<li><img src="data2/images/pseudocodigo_ejemplo_6.jpg" alt="PSEUDOCODIGO EJEMPLO 6" title="PSEUDOCODIGO EJEMPLO 6" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/pseudocodigo_ejemplo_7.png" alt="responsive slider" title="PSEUDOCODIGO EJEMPLO 7" id="wows2_6"/></a></li>
+		<li><img src="data2/images/pseudocodigo_ejemplo_8.png" alt="PSEUDOCODIGO EJEMPLO 8" title="PSEUDOCODIGO EJEMPLO 8" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="PSEUDOCODIGO EJEMPLO 1"><span><img src="data2/tooltips/pseudocodigo_ejemplo_1.jpg" alt="PSEUDOCODIGO EJEMPLO 1"/>1</span></a>
+		<a href="#" title="PSEUDOCODIGO EJEMPLO 2"><span><img src="data2/tooltips/pseudocodigo_ejemplo_2.png" alt="PSEUDOCODIGO EJEMPLO 2"/>2</span></a>
+		<a href="#" title="PSEUDOCODIGO EKEMPLO 3"><span><img src="data2/tooltips/pseudocodigo_ekemplo_3.jpg" alt="PSEUDOCODIGO EKEMPLO 3"/>3</span></a>
+		<a href="#" title="PSEUDOCODIGO EJEMPLO 4"><span><img src="data2/tooltips/pseudocodigo_ejemplo_4.jpg" alt="PSEUDOCODIGO EJEMPLO 4"/>4</span></a>
+		<a href="#" title="PSEUDOCODIGO EJEMPLO 5"><span><img src="data2/tooltips/pseudocodigo_ejemplo_5.jpg" alt="PSEUDOCODIGO EJEMPLO 5"/>5</span></a>
+		<a href="#" title="PSEUDOCODIGO EJEMPLO 6"><span><img src="data2/tooltips/pseudocodigo_ejemplo_6.jpg" alt="PSEUDOCODIGO EJEMPLO 6"/>6</span></a>
+		<a href="#" title="PSEUDOCODIGO EJEMPLO 7"><span><img src="data2/tooltips/pseudocodigo_ejemplo_7.png" alt="PSEUDOCODIGO EJEMPLO 7"/>7</span></a>
+		<a href="#" title="PSEUDOCODIGO EJEMPLO 8"><span><img src="data2/tooltips/pseudocodigo_ejemplo_8.png" alt="PSEUDOCODIGO EJEMPLO 8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section --> <br><br>
+     <ul data-role="controlgroup" data-type="vertical" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Implementar Algoritmos con Diagrama de Flujo</h2>
+     </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Implementar Algoritmo con Pseudocódigo</h2>
+     </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Implementar Algoritmo con Código</h2>
+     </a>
+     </li>
+     </ul>
+     </div>
+     </div>
+     
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <h4>App 10 Karen Krystell Soriano Dávila</h4>
+       <h4>PROYECTO FINAL</h4>
+      <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+</div>
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Implementar Algoritmos con Diagrama de Flujo </h1> 
+  </div>
+<div data-role="content" align="justify">
+   <div>
+   <h2>ALGORITMOS CONDICIONALES</h2>
+    <p> Hemos llegado a un punto de la resolución de un problema, donde existan diferentescaminos con accioneso pasos que puedan llegar a ejecutarse.</p>
+    <h2>PERO SOLO UN CAMINO SE PUEDE EJECUTAR EN ALGÚN MOMENTO</h2>
+    <h3>Esquema:</h3>
+    <div class="imagen">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image71','','imagenes/condicional2.jpg',1)"><img src="imagenes/condicional.png" width="393" height="400" id="Image71"></a> </div>
+<p>Debe existir: una pregunta</p>
+    <p> Que termine: una condición para algún dato</p>
+    <p> Y evaluarla con: un valor de verdad </p>
+    <p>La condición para algún dato se expresa como una proposición u oración que nos lleve a valores como: sí ó no, v óf, verdadero ó falso, true o false, on u off, 1 ó 0.</p>
+    <p> El rombo sirve para evaluar su condición, al evaluarla se tiene un valor de verdad de dos valores posibles:</p>
+    <h3> El valor de la condición puede ser verdadero</h3>
+    <h3>El valor de la condición puede ser falso</h3>
+    <p>La ejecución del flujo sigue en el lado que distinga el verdadero si la condición es verdadera.</p>
+    <p>La ejecución del flujo sigue en el lado que distinga el falso si la condición es falso.</p>
+    <h3>Si la condición SI se cumple</h3>
+    <h3>Si la condición NO se cumple</h3>
+    <p>La ejecución del flujo sigue en el lado que distinga el SI si la condición si se cumple.</p>
+    <p>La ejecución del flujo sigue en el lado que distinga el NO si la condición no se cumple.
+    Además de poder intercambiar de lugar:</p>
+    <h3>El V ó F</h3>
+    <h3>Ó el SI ó NO</h3>
+    <p>También podemos cambiar de lugar las líneas de flujo</p>
+    <h2>OPERADORES CONDICIONALES O COMPARATIVOS</h2>
+    <h4> < Menor que</h4>
+     <h4>    <= Menor o igual que</h4>
+      <h4>   < Mayor que</h4>
+      <h4>   >= Mayor o igual que</h4>
+      <h4>   != Diferente a </h4>
+       <h4>  == Igual a</h4><br>
+       <img src="imagenes/operadores.jpg" width="60%" height="60%" class="imagen">
+    <br><div class="imagen">
+       <a href="https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/statements-expressions-operators/operators" target="_self">Para saber más</a>
+       </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Diez, KKSD</h4>
+   <h4>PROYECTO FINAL</h4>
+</div>
+ </div> 
+</div>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Implementar Algoritmos con Pseudocódigo</h1> 
+  </div>
+<div data-role="content" align="justify">
+   <div>
+   <h2>PSEUDOCÓDIGO CONDICIONAL VS DIAGRAMA DE FLUJO</h2>
+    <p> Si condición Entonces</p>
+    <h4>paso x</h4>
+    <h4>paso x+1</h4>
+    <p>Sino</p>
+    <h4>paso n</h4>
+    <h4>paso n+1</h4>
+    <p> FinSi</p><br>
+    <p>La palabra Si-Entonces es el flujo verdadero "SI" del rombo, la palabra Sino es el flujo falso "NO" del rombo y se debe terminar con FinSi.</p>
+    <h2>ACLARACIÓN IMPORTANTE</h2>
+    <p>Un rombo puede contener en sus flujos SI y NO, más rombos y estos a su vez también. Por lo mismo un Si-Entonces solo o con el Sino pueden contener más Si-Entonces con su Sino o solo el Si-Entonces y estos a su vez también.</p>
+    <br><div class="imagen">
+    <img src="imagenes/dif.jpg" width="60%" hight="60"><br>
+       <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=322:instrucciones-condicionales-si-entonces-sino-if-then-else-ejemplos-en-pseudocodigo-cu00142a&catid=28&Itemid=59" target="_self">Para saber más</a></div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Diez, KKSD</h4>
+   <h4>PROYECTO FINAL</h4>
+</div>
+ </div> 
+</div>
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Implementar Algoritmos con Código</h1> 
+  </div>
+<div data-role="content" align="justify">
+   <div>
+   <h2>EXPRESIONES CONDICIONALES EN C# SIMPLES Y COMPUESTAS</h2>
+    <p> Una expresión condicional simple se forma con un operador binario relacional (==, !=, >, <, >=, <=) y al evaluarla nos da un valor de:</p>
+    <h2>CONDICIONAL MÚLTIPLE EN DIAGRAMAS DE FLUJO (VARIANTE DEL ROMBO)</h2>
+    <p> El rombo contiene una variable y la ejecución del flujo sigue en el lado que distinga el valor que contenga la variable.</p>
+    <img src="imagenes/if.jpg" width="60%" hight="60%" class="imagen">
+    <h2>DIVISIÓN DE OPCIÓN MÚLTIPLE-PSEUDOCÓDIGO</h2>
+    <p>Según variable Hacer</p>
+    <p>opción1: secuencia_de_acciones_1</p>
+    <p>opción2: secuencia_de_acciones_2</p>
+    <p>opción3: secuencia_de_acciones_3</p>
+    <p>De otro modo: secuencia_de_acciones_dom</p>
+    <p>FinSegún</p><br>
+    <h2>DECISIÓN DE OPCIÓN MÚLTIPLE CÓDIGO C#</h2>
+    <p>switch(variable)</p>
+    <p>{</p>
+    <p>case valor 1:</p>
+    <p>sentencias1</p>
+    <p>break;</p>
+    <p>case valor 2:</p>
+    <p>sentencias2</p>
+    <p>break;</p>
+    <p>:</p>
+    <p>default:</p>
+    <p>massentencias</p>
+    <p>break;</p>
+    <p>}</p><div class="imagen">
+    <img src="imagenes/condi.jpg" width="60%" hight="60%"><br>
+    <div data-role="main" class="ui-content" align="center" >
+<div style="width:25%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child ui-last-child">
+  <a href="http://www.incanatoit.com/2014/11/if-elseif-estructura-condicional-multiple-programacion-csharp-net.html" data-role="button" >
+  <h2>Más sobre el tema</h2>
+  </a>
+  </li>
+</ul>
+  </div>
+  </div>
+      </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Diez, KKSD</h4>
+   <h4>PROYECTO FINAL</h4>
+</div>
+ </div> 
+</div>
+<div data-role="page" id="Pagina3" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1> UNIDAD 3 </h1>
+   </div>
+    <div data-role="main" class="ui-content">
+     <div>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/codigo_ejemplo_1.jpg" alt="CODIGO EJEMPLO 1" title="CODIGO EJEMPLO 1" id="wows3_0"/></li>
+		<li><img src="data3/images/codigo_ejemplo_2.jpg" alt="CODIGO EJEMPLO 2" title="CODIGO EJEMPLO 2" id="wows3_1"/></li>
+		<li><img src="data3/images/codigo_ejemplo_3.png" alt="CODIGO EJEMPLO 3" title="CODIGO EJEMPLO 3" id="wows3_2"/></li>
+		<li><img src="data3/images/codigo_ejemplo_4.png" alt="CODIGO EJEMPLO 4" title="CODIGO EJEMPLO 4" id="wows3_3"/></li>
+		<li><img src="data3/images/codigo_ejemplo_5.png" alt="CODIGO EJEMPLO 5" title="CODIGO EJEMPLO 5" id="wows3_4"/></li>
+		<li><img src="data3/images/codigo_ejemplo_6.jpg" alt="CODIGO EJEMPLO 6" title="CODIGO EJEMPLO 6" id="wows3_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data3/images/codigo_ejemplo_7.jpg" alt="image slider" title="CODIGO EJEMPLO 7" id="wows3_6"/></a></li>
+		<li><img src="data3/images/codigo_ejemplo_8.png" alt="CODIGO EJEMPLO 8" title="CODIGO EJEMPLO 8" id="wows3_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="CODIGO EJEMPLO 1"><span><img src="data3/tooltips/codigo_ejemplo_1.jpg" alt="CODIGO EJEMPLO 1"/>1</span></a>
+		<a href="#" title="CODIGO EJEMPLO 2"><span><img src="data3/tooltips/codigo_ejemplo_2.jpg" alt="CODIGO EJEMPLO 2"/>2</span></a>
+		<a href="#" title="CODIGO EJEMPLO 3"><span><img src="data3/tooltips/codigo_ejemplo_3.png" alt="CODIGO EJEMPLO 3"/>3</span></a>
+		<a href="#" title="CODIGO EJEMPLO 4"><span><img src="data3/tooltips/codigo_ejemplo_4.png" alt="CODIGO EJEMPLO 4"/>4</span></a>
+		<a href="#" title="CODIGO EJEMPLO 5"><span><img src="data3/tooltips/codigo_ejemplo_5.png" alt="CODIGO EJEMPLO 5"/>5</span></a>
+		<a href="#" title="CODIGO EJEMPLO 6"><span><img src="data3/tooltips/codigo_ejemplo_6.jpg" alt="CODIGO EJEMPLO 6"/>6</span></a>
+		<a href="#" title="CODIGO EJEMPLO 7"><span><img src="data3/tooltips/codigo_ejemplo_7.jpg" alt="CODIGO EJEMPLO 7"/>7</span></a>
+		<a href="#" title="CODIGO EJEMPLO 8"><span><img src="data3/tooltips/codigo_ejemplo_8.png" alt="CODIGO EJEMPLO 8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section --><br><br>
+     <ul data-role="controlgroup" data-type="vertical" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Implementar Algoritmos con Diagrama de Flujo</h2>
+     </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Implementar Algoritmo con Pseudocódigo</h2>
+     </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina12" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Implementar Algoritmo con Código</h2>
+     </a>
+     </li>
+     </ul>
+     </div>
+     </div>
+     
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <h4>App 10 Karen Krystell Soriano Dávila</h4>
+       <h4>PROYECTO FINAL</h4>
+      <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+</div>
+<div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Implementar Algoritmos con Diagrama de Flujo</h1> 
+  </div>
+<div data-role="content" align="justify">
+   <div>
+   <h2>CLASIFICACIÓN DE VARIABLES</h2>
+   <h3>Por su Contenido:</h3>
+   <p>* Numéricas</p>
+   <p>* Lógicas</p>
+   <p>* Alfanuméricas</p>
+   <h3>Por su Uso:</h3>
+   <p>* De trabajo</p>
+   <p>* Contadores</p>
+   <p>* Acumuladores</p>
+   <h2>POR SU CONTENIDO</h2>
+   <img src="imagenes/tipos.png" width="60%" hight="60%" class="imagen">
+   <h3>Variables Numéricas</h3>
+   <p>Son aquellas en las cuales se almacenan valores numéricos, positivos o negativos, enteros o flotantes (números con punto decimal).</p>
+   <h3>Variables Lógicas</h3>
+   <p>Son aquellas que solo pueden tener dos valores (verdadero ó falso, 0 ó 1, si ó no, cierto ó falso, TRUE O FALSE, ON o OFF) estos valores representan el resultado de una comparación entre un dato y otro dato.</p>
+   <h3>Variables Alfanuméricas</h3>
+   <p>Son aquellas en las cuales se almacenan valores o información compuesta por letras y/ó números y/ó carácteres especiales(carácteres alfanuméricos).</p>
+   <h4>NOTA</h4>
+   <p>Se le llaman carácteres alfanuméricos a las letras, números y carácteres especiales que observas en tu teclado y son imprimibles.</p>
+   <h3>Variables de Trabajo</h3>
+   <p>Variables que reciben el resultado de una expresión aritmética parcial o completa que se usan dentro de un programa</p>
+   <div class="imagen">
+   <img src="imagenes/tipos2.jpg" width="60%" hight="60%"><br>
+   <div data-role="main" class="ui-content" align="center" >
+<div style="width:25%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://www.clasificacionde.org/clasificacion-de-variables-estadisticas/" data-role="button" >
+  <h2>Más sobre el tema</h2>
+  </a>
+  </li>
+</ul>
+  </div>
+  </div>
+       </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Diez, KKSD</h4>
+   <h4>PROYECTO FINAL</h4>
+</div>
+ </div> 
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <h4>App 10 Karen Krystell Soriano Dávila</h4>
+       <h4>PROYECTO FINAL</h4>
+      <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+</div>
+<div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Implementar Algoritmos con Pseudocódigo</h1> 
+  </div>
+<div data-role="content" align="justify">
+   <div>
+   <h2>CLASIFICACIÓN DE VARIABLES</h2>
+   <h3>Por su Contenido:</h3>
+   <p>* Numéricas</p>
+   <p>* Lógicas</p>
+   <p>* Alfanuméricas</p>
+   <h3>Por su Uso:</h3>
+   <p>* De trabajo</p>
+   <p>* Contadores</p>
+   <p>* Acumuladores</p>
+   <img src="imagenes/cont.jpg" width="60%" hight="60%" class="imagen">
+   <h2>POR SU CONTENIDO</h2>
+   <h3>Variables Numéricas</h3>
+   <p>Son aquellas en las cuales se almacenan valores numéricos, positivos o negativos, enteros o flotantes (números con punto decimal).</p>
+   <h3>Variables Lógicas</h3>
+   <p>Son aquellas que solo pueden tener dos valores (verdadero ó falso, 0 ó 1, si ó no, cierto ó falso, TRUE O FALSE, ON o OFF) estos valores representan el resultado de una comparación entre un dato y otro dato.</p>
+   <h3>Variables Alfanuméricas</h3>
+   <p>Son aquellas en las cuales se almacenan valores o información compuesta por letras y/ó números y/ó carácteres especiales(carácteres alfanuméricos).</p>
+   <h4>NOTA</h4>
+   <p>Se le llaman carácteres alfanuméricos a las letras, números y carácteres especiales que observas en tu teclado y son imprimibles.</p>
+   <h3>Variables de Trabajo</h3>
+   <p>Variables que reciben el resultado de una expresión aritmética parcial o completa que se usan dentro de un programa</p>
+   <h3>COMO USAR LA VARIABLE CONTADOR</h3>
+   <h2>Iniciarlo</h2>
+   <h2>Aplicar contador o Acumulador</h2>
+   <p>Con su tamaño de paso o cantidad a acumular</p>
+   <h3>Definir Límite</h3>
+   <p>Cuantas veces</p>
+   <p>Hasta cuanto</p>
+   <p>Hasta cuando</p>
+   <h2>PALABRAS DE REPETICIÓN EN PSEUDOCÓDIGO</h2>
+   <p>Mientras condición Hacer</p>
+   <p>secuencia_de_acciones_a_repetir</p>
+   <p>FinMientras</p><div class="imagen">
+   <img src="imagenes/cont2.jpg" wdth="60%" hight="60%"><br>
+   <div data-role="main" class="ui-content" align="center" >
+<div style="width:25%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=431:acumuladores-en-programacion-y-similitud-con-contadores-ejemplos-y-uso-cu00159a&catid=28&Itemid=59" data-role="button" >
+  <h2>Más sobre el tema</h2>
+  </a>
+  </li>
+</ul>
+  </div>
+  </div>
+       </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Diez, KKSD</h4>
+   <h4>PROYECTO FINAL</h4>
+</div>
+ </div> 
+</div>
+<div data-role="page" id="Pagina12" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Implementar Algoritmos con Código</h1> 
+  </div>
+<div data-role="content" align="justify">
+   <div>
+   <h2>PALABRA RESERVADA DE REPETICIÓN EN C#</h2>
+   <p>while (condición)</p>
+   <p>{</p>
+   <p>secuencia_de_acciones_a_repetir</p>
+   <p>}</p>
+   <h3>Siempre que la condición es verdadera, se repite la secuencia de acciones</h3>
+   <h2>PALABRAS DE REPETICIÓN EN PSEUDOCÓDIGO</h2>
+   <p>Repetir</p>
+   <p>secuencia_de_acciones_a_repetir</p>
+   <p>Hasta que condición</p>
+   <p>Siempre que la condición es falsa, se repite la secuencia de acciones</p>
+   <img src="imagenes/repet.jpg" width="60%" hight="60%" class="imagen">
+   <h2>PALABRA RESERVADA DE LA REPETICIÓN EN C#</h2>
+   <p>do</p>
+   <p>{</p>
+   <p>secuencia_de_acciones_a_repetir</p>
+   <p>}while(condición)</p>
+   <p>Siempre que la condición es verdadera, se repite la secuenciade acciones</p>
+   <h2>PALABRAS DE REPETICIÓN EN PSEUDOCÓDIGO</h2>
+   <p>Para varnum<-val_inicial Hasta val_final Con Paso paso Hacer</p>
+   <p>secuencia_de_acciones</p>
+   <p>finpara</p><div class="imagen">
+   <img src="imagenes/cod.jpg" width="60%" hight="60%"><br>
+   <div data-role="main" class="ui-content" align="center" >
+<div style="width:25%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=117:descargar-e-instalar-visual-basic-entorno-ide-vb-visual-studio-empezar-a-programar-cu00304a&catid=37&Itemid=61" data-role="button" >
+  <h2>Descargar Visual Studio</h2>
+  </a>
+  </li>
+</ul>
+  </div>
+  </div>
+       </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Diez, KKSD</h4>
+   <h4>PROYECTO FINAL</h4>
+</div>
+ </div> 
+</div>
+
+
+</body>
+</html>
